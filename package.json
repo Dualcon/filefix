@@ -1,0 +1,26 @@
+{
+  "name": "filefix",
+  "version": "1.0.0",
+  "description": "Add and remove tags from your files.",
+  "main": "./bin/filefix.js",
+  "bin": {
+    "filefix": "./bin/filefix.js"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter dot"
+  },
+  "keywords": [
+    "file",
+    "change",
+    "name",
+    "tag"
+  ],
+  "author": "Wiki Dreams <danielsantosvieiramail@gmail.com> (https://github.com/WikiDreams)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "commander": "^2.9.0",
+    "mocha": "^3.1.0",
+    "rmdir": "^1.2.0"
+  }
+}

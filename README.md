@@ -13,19 +13,24 @@ filefix is a npm module which can helps you organizing your files, labeling them
 Usage: filefix [options] [command]
 
 Commands:
-add      Adds a specific tag to the file name.
-remove   Removes a specific tag from the file name.
+-    add      Adds a specific tag to the file name.
+-    remove   Removes a specific tag from the file name.
+
 
 Options:
--h, --help                         output usage information
--V, --version                      output the version number
--p, --path <path>                  Path to the files directory.
--t, --tag <tag>                    Tag to add into the file name.
--l, --localization <localization>  Tag's localization [left, right].
+-    -h, --help                         output usage information
+-    -V, --version                      output the version number
+-    -p, --path <path>                  Path to the files directory.
+-    -t, --tag <tag>                    Tag to add into the file name.
+-    -l, --localization <localization>  Tag's localization [left, right].
+
 
 ## Examples
 $filefix add -p . -t ' [tag]' -l right
+
 Output: input [tag].txt
 
+
 $filefix remove -p . -t ' [tag]'
+
 Output: input.txt
